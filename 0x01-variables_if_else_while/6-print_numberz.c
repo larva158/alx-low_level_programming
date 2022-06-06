@@ -9,10 +9,8 @@ int main(void)
 {
 	int i;
 
-	for (i = 28; i < 38; i++)
-	{
-		putchar(i);
-	}
+	i = 0x075BCD15;
+	printf("0%d", i);
 	putchar('\n');
 	return (0);
 }
