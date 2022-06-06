@@ -7,15 +7,15 @@
  */
 int main(void)
 {
-	char alphabet;
+	char alphabet = 'a';
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	while (alphabet <= 'z')
 	{
-		putchar(alphabet);
-		if (alphabet == ('q' || 'e'))
+		if ((alphabet != 'e') && (alphabet != 'q'))
 		{
-			putchar('\0');
+			putchar(alphabet);
 		}
+		alphabet++;
 	}
 	putchar('\n');
 	return (0);
