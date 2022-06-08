@@ -1,12 +1,11 @@
-#include <main.h>
+#include <stdio.h>
 /**
- * _putchar - writes the character to stdout
+ * main - Entry point
  *
- * Return: On success
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: Always 0 (Success)
  */
-int main(void)
+int main (void)
 {
-	write(1, "_putchar\n", 8);
+	printf("_putchar\n");
 	return (0);
 }
