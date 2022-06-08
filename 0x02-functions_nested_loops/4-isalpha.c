@@ -1,20 +1,19 @@
 #include "main.h"
 
 /**
- * _islower - Short description, checks for uppercase character
+ * _isalpha - Short description, checks for uppercase character
  * @c: contains value to be compared
  * Return: Always 0.
  */
 
 int _isalpha(int c)
 {
-        if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
-        {
-                return (1);
-        }
-        else
-        {
-                return (0);
-        }
+	if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
-
