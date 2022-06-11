@@ -12,7 +12,8 @@ int main(void)
 {
 	char c;
 
-	if (c = 'C')
+	c = 'C';
+	if (c == 'C')
 	{
 		return (1);
 	}
