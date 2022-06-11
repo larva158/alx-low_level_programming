@@ -12,7 +12,7 @@ int main(void)
 {
 	char c;
 
-	if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
+	if (c = 'C')
 	{
 		return (1);
 	}
