@@ -3,17 +3,15 @@
 #include <ctype.h>
 
 /**
- * main - check the code.
- *
+ * _isupper - checks for uppercase character.
+ *@c: verification
  * Return: Always 0.
 */
 
-int main(void)
+int _isupper(int c)
 {
-	char c;
 
-	c = 'C';
-	if (c == 'C')
+	if (isupper(c))
 	{
 		return (1);
 	}
