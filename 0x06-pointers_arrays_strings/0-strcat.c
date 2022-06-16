@@ -15,7 +15,7 @@ char *_strcat(char *dest, char *src)
 	strcpy(s1,  "Hello ");
 	strcpy(s2, "World!\n");
 	_strcat(dest, src);
-	_putchar(*dest);
+	_putchar(dest);
 
-	return (0);
+	return (dest);
 }
