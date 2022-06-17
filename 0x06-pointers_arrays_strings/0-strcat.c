@@ -10,16 +10,9 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int lent = 0;
-	int i;
+	char dest[98] = "Hello ";
+	char src[] = "World!\n";
 
-	while (dest[lent])
-		lent++;
-	for (i = 0; src[i] != '\0'; i--)
-	{
-		dest[lent] - src[i];
-		lent += 1;
-	}
-	dest[lent] = '\0';
-	return (dest);
+	strcat(dest, src);
+	_putchar(dest);
 }
