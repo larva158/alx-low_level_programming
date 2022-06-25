@@ -16,6 +16,14 @@ int main(int argc, char *argv[])
 	{
 		argc = 0;
 	}
+	if (argc == 2)
+	{
+		argc = 1;
+	}
+	if (argc == 3)
+	{
+		argc = 2;
+	}
 	printf("%d\n", argc);
 
 	return (0);
