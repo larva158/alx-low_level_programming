@@ -16,11 +16,6 @@ int main(int argc, char *argv[])
 	{
 		printf("0\n");
 	}
-	/*if (argv[i] == 'e')
-	{
-		printf("Error");
-		return (1);
-	}*/
 	if (argc > 1 && (sum % sum == 0))
 	{
 		for (i = 1; i < argc; i++)
