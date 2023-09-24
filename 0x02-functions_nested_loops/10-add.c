@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * int add - Function to add two numbers
- *
+ * add - Function to add two numbers
+ * @a : variable
+ * @b : variable
  * Return: 0 succes
  */
 
